@@ -11,8 +11,18 @@ Welcome to AmazonEcho's documentation!
 :alt: High level overview of Amazon echo program
 
 
+*
+
+Database used SQLite, database table called audio, with columns id (int) , audio_name (text), data (blob)
+category (text), SHORT_DEC (text)
+
+*
+
 .. automodule:: txt_to_speech
     :members: text_to_speech
+
+.. automodule:: speech_to_txt
+    :members: speech_to_text
 
 .. automodule:: answer_service
     :members: answer_mode

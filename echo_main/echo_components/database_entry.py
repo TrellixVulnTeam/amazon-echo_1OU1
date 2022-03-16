@@ -87,8 +87,7 @@ def insert_file(file_name: str,
         category (str): category of audio e.g. Loud
         SHORT_DESC (str): description of the audio
 
-    Returns:
-        _type_: True
+    Returns: adds data to database
     """
     try:
         # Establish a connection

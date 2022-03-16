@@ -1,16 +1,14 @@
-from cgitb import text
 from answer_service import answer_mode
 import pytest
-from database_entry import convert_into_binary, sqlite_connect , insert_file
+from database_entry import convert_into_binary, sqlite_connect, insert_file
 from unittest import mock
-from unittest.mock import Mock, patch
 from txt_to_speech import text_to_speech
-from listening_service import speech_to_text
+# from listening_service import speech_to_text, record
 from database_retriv import retrieve_file
-import json
-from tkinter import CENTER, Tk, Button
-from main import controller
+# from main import controller
 import requests
+from speech_to_txt import speech_to_text
+
 
 def test_answer_mode():
     """
@@ -67,6 +65,8 @@ def test_convert_into_binary():
 def test_convert_into_binary1():
     assert convert_into_binary("dd.wav") is not None
 
+# this may fail at first
+
 
 def test_convert_into_binary2():
     """ test to see if audio is in binary after convert
@@ -82,37 +82,29 @@ def tests_sqlite_connect(test):
     assert sqlite_connect("test") == "True"
 
 
-# @mock.patch('listening_service.requests.post')
-# def test_speech_to_text(mocked_post: Mock):
-#     """
-#     checking if data can be read by selected filters
-#     """
-#     response_mock = Mock(status_code=200)
-#     response_mock.json.return_value = "'DisplayText':'Play loud music.'"
-#     mocked_post.return_value = response_mock
-#     assert speech_to_text() == "test"
-
-
 @mock.patch('txt_to_speech.play', return_value='True')
 def tests_text_to_speech1(req_test):
     assert text_to_speech("test") == 'True'
 
+
 @mock.patch('txt_to_speech.requests', return_value='')
 def tests_text_to_speech2(req_test):
-    """ 
-    forcing an exception test 
+    """
+    forcing an exception test
     """
     with pytest.raises(Exception):
-      assert text_to_speech("test")
+        assert text_to_speech("test")
+
 
 @mock.patch("requests.post")
 @mock.patch("txt_to_speech.play", return_value="test")
-def test_myfunction_3(mocked_post,mok_re):
+def test_myfunction_3(mocked_post, mok_re):
     """
     test to check if function is returned
     """
     mocked_post.return_value = "Findme"
     assert text_to_speech("mock") == "Findme"
+
 
 def test_insert_file():
     """ testing for exception
@@ -150,20 +142,34 @@ def test_controlle_1(answer_mock):
         assert x == "answer"
 
 
-@patch('requests.post')
+@mock.patch('requests.post')
 def test_answer_modeP(post_mock):
-    """ 
+    """
     exception testing
     """
     post_mock.side_effect = requests.exceptions.ConnectionError()
     with pytest.raises(Exception):
-     assert answer_mode(22) 
+        assert answer_mode(22)
 
 
 def test_retrieve_file():
     """ exception test for db retrival
     """
     with mock.patch("database_retriv.sqlite_connect") as mockdb:
-      mockdb.add = mock.MagicMock(return_value="True")
-      with pytest.raises(Exception):
-       assert retrieve_file("dd.wav") == 'd'
+        mockdb.add = mock.MagicMock(return_value="True")
+        with pytest.raises(Exception):
+            assert retrieve_file("dd.wav") == 'd'
+
+
+@mock.patch("speech_to_txt.requests.post")
+def test_speech_to_text(mocked_post):
+    mocked_post.return_value.json.return_value = {"DisplayText": "test"}
+    assert speech_to_text() == "test"
+
+
+# attempting test on listening service
+
+# @mock.patch("listening_service.record")
+# def test_listening_service(mocked_listen: MagicMock):
+#    record()
+#    mocked_listen.assert_called_once()

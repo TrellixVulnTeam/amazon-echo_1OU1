@@ -13,10 +13,10 @@
          > (0,0,1,0,2) title page author [Sphinx] > DEFAULT
            (0,0,0,0,2) body [Sphinx] > default
         SingleStyledText('690065847')
-    Paragraph('Mar 12, 2022', style='title page date')
+    Paragraph('Mar 15, 2022', style='title page date')
          > (0,0,1,0,2) title page date [Sphinx] > DEFAULT
            (0,0,0,0,2) body [Sphinx] > default
-        SingleStyledText('Mar 12, 2022')
+        SingleStyledText('Mar 15, 2022')
 ---------------------------------- page i ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
@@ -68,12 +68,44 @@
             ReferenceField('3')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
               SingleStyledText('3')
-        TableOfContentsEntry('2	Answer Question Mode	5')
+        TableOfContentsEntry('2	Speech to text	5')
              > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
             ReferenceField('2')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
               SingleStyledText('2')
+            Tab('	')
+            ReferenceField('Speech to text')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Speech to text')
+                MixedStyledText('Speech to text')
+                  SingleStyledText('Speech to text')
+            Tab('	')
+            ReferenceField('5')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('5')
+        TableOfContentsEntry('2.1	Converts speech to text	5')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('2.1')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('2.1')
+            Tab('	')
+            ReferenceField('Converts speech to text')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Converts speech to text')
+                MixedStyledText('Converts speech to text')
+                  SingleStyledText('Converts speech to text')
+            Tab('	')
+            ReferenceField('5')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('5')
+        TableOfContentsEntry('3	Answer Question Mode	7')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('3')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('3')
             Tab('	')
             ReferenceField('Answer Question Mode')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
@@ -81,53 +113,21 @@
                 MixedStyledText('Answer Question Mode')
                   SingleStyledText('Answer Question Mode')
             Tab('	')
-            ReferenceField('5')
-                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('5')
-        TableOfContentsEntry('2.1	Answer question method	5')
-             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
-            ReferenceField('2.1')
-                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
-                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('2.1')
-            Tab('	')
-            ReferenceField('Answer question method')
-                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              MixedStyledText('Answer question method')
-                MixedStyledText('Answer question method')
-                  SingleStyledText('Answer question method')
-            Tab('	')
-            ReferenceField('5')
-                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('5')
-        TableOfContentsEntry('3	Database Configuration	7')
-             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
-            ReferenceField('3')
-                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
-                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('3')
-            Tab('	')
-            ReferenceField('Database Configuration')
-                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              MixedStyledText('Database Configuration')
-                MixedStyledText('Database Configuration')
-                  SingleStyledText('Database Configuration')
-            Tab('	')
             ReferenceField('7')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
               SingleStyledText('7')
-        TableOfContentsEntry('3.1	Add data to database	7')
+        TableOfContentsEntry('3.1	Answer question method	7')
              > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
             ReferenceField('3.1')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
               SingleStyledText('3.1')
             Tab('	')
-            ReferenceField('Add data to database')
+            ReferenceField('Answer question method')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              MixedStyledText('Add data to database')
-                MixedStyledText('Add data to database')
-                  SingleStyledText('Add data to database')
+              MixedStyledText('Answer question method')
+                MixedStyledText('Answer question method')
+                  SingleStyledText('Answer question method')
             Tab('	')
             ReferenceField('7')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
@@ -148,12 +148,44 @@
             ReferenceField('9')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
               SingleStyledText('9')
-        TableOfContentsEntry('4.1	Retrive data from database	9')
+        TableOfContentsEntry('4.1	Add data to database	9')
              > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
             ReferenceField('4.1')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
               SingleStyledText('4.1')
+            Tab('	')
+            ReferenceField('Add data to database')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Add data to database')
+                MixedStyledText('Add data to database')
+                  SingleStyledText('Add data to database')
+            Tab('	')
+            ReferenceField('9')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('9')
+        TableOfContentsEntry('5	Database Configuration	11')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('5')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('5')
+            Tab('	')
+            ReferenceField('Database Configuration')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Database Configuration')
+                MixedStyledText('Database Configuration')
+                  SingleStyledText('Database Configuration')
+            Tab('	')
+            ReferenceField('11')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('11')
+        TableOfContentsEntry('5.1	Retrive data from database	1...')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('5.1')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('5.1')
             Tab('	')
             ReferenceField('Retrive data from database')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
@@ -161,15 +193,15 @@
                 MixedStyledText('Retrive data from database')
                   SingleStyledText('Retrive data from database')
             Tab('	')
-            ReferenceField('9')
+            ReferenceField('11')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('9')
-        TableOfContentsEntry('5	Listening service	11')
+              SingleStyledText('11')
+        TableOfContentsEntry('6	Listening service	13')
              > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
-            ReferenceField('5')
+            ReferenceField('6')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('5')
+              SingleStyledText('6')
             Tab('	')
             ReferenceField('Listening service')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
@@ -177,31 +209,31 @@
                 MixedStyledText('Listening service')
                   SingleStyledText('Listening service')
             Tab('	')
-            ReferenceField('11')
+            ReferenceField('13')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('11')
-        TableOfContentsEntry('5.1	Listens & Translate users vo...')
+              SingleStyledText('13')
+        TableOfContentsEntry('6.1	Records users voice into tex...')
              > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
-            ReferenceField('5.1')
+            ReferenceField('6.1')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('5.1')
+              SingleStyledText('6.1')
             Tab('	')
-            ReferenceField('Listens & Translate users voice ...')
+            ReferenceField('Records users voice into text')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              MixedStyledText('Listens & Translate users voice ...')
-                MixedStyledText('Listens & Translate users voice ...')
-                  SingleStyledText('Listens & Translate users voice ...')
+              MixedStyledText('Records users voice into text')
+                MixedStyledText('Records users voice into text')
+                  SingleStyledText('Records users voice into text')
             Tab('	')
-            ReferenceField('11')
+            ReferenceField('13')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('11')
-        TableOfContentsEntry('6	Play service	13')
+              SingleStyledText('13')
+        TableOfContentsEntry('7	Play service	15')
              > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
-            ReferenceField('6')
+            ReferenceField('7')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('6')
+              SingleStyledText('7')
             Tab('	')
             ReferenceField('Play service')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
@@ -209,15 +241,15 @@
                 MixedStyledText('Play service')
                   SingleStyledText('Play service')
             Tab('	')
-            ReferenceField('13')
+            ReferenceField('15')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('13')
-        TableOfContentsEntry('6.1	Plays Binary	13')
+              SingleStyledText('15')
+        TableOfContentsEntry('7.1	Plays Binary	15')
              > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
-            ReferenceField('6.1')
+            ReferenceField('7.1')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('6.1')
+              SingleStyledText('7.1')
             Tab('	')
             ReferenceField('Plays Binary')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
@@ -225,15 +257,15 @@
                 MixedStyledText('Plays Binary')
                   SingleStyledText('Plays Binary')
             Tab('	')
-            ReferenceField('13')
+            ReferenceField('15')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('13')
-        TableOfContentsEntry('7	GUI & Controller	15')
+              SingleStyledText('15')
+        TableOfContentsEntry('8	GUI & Controller	17')
              > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
-            ReferenceField('7')
+            ReferenceField('8')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('7')
+              SingleStyledText('8')
             Tab('	')
             ReferenceField('GUI & Controller')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
@@ -241,15 +273,15 @@
                 MixedStyledText('GUI & Controller')
                   SingleStyledText('GUI & Controller')
             Tab('	')
-            ReferenceField('15')
+            ReferenceField('17')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('15')
-        TableOfContentsEntry('7.1	Runs Amazon Echo	15')
+              SingleStyledText('17')
+        TableOfContentsEntry('8.1	Runs Amazon Echo	17')
              > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
-            ReferenceField('7.1')
+            ReferenceField('8.1')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
                    (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('7.1')
+              SingleStyledText('8.1')
             Tab('	')
             ReferenceField('Runs Amazon Echo')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
@@ -257,10 +289,10 @@
                 MixedStyledText('Runs Amazon Echo')
                   SingleStyledText('Runs Amazon Echo')
             Tab('	')
-            ReferenceField('15')
+            ReferenceField('17')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('15')
-        TableOfContentsEntry('	Python Module Index	17')
+              SingleStyledText('17')
+        TableOfContentsEntry('	Python Module Index	19')
              > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
             ReferenceField('')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
@@ -271,10 +303,10 @@
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
               SingleStyledText('Python Module Index')
             Tab('	')
-            ReferenceField('17')
+            ReferenceField('19')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('17')
-        TableOfContentsEntry('	Index	19')
+              SingleStyledText('19')
+        TableOfContentsEntry('	Index	21')
              > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
             ReferenceField('')
                  > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
@@ -286,9 +318,9 @@
               StringField('Index')
                 SingleStyledText('Index')
             Tab('	')
-            ReferenceField('19')
+            ReferenceField('21')
                  > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-              SingleStyledText('19')
+              SingleStyledText('21')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
     Footer('		i')
@@ -327,6 +359,37 @@
                 MixedStyledText('High level overview of Amazon ec...')
                   MixedStyledText('High level overview of Amazon ec...')
                     SingleStyledText('High level overview of Amazon ec...')
+      List(style='bulleted')   C:14 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <bullet_list>
+           > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+        ListItem()   C:15 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <list_item>
+             x (0,0,1,0,4) bulleted list item
+          ListItemLabel('•')
+               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                 (0,0,0,0,2) list item label [Sphinx] > default
+              MixedStyledText('•')
+                SingleStyledText('')
+                SingleStyledText('•')
+                SingleStyledText('')
+          StaticGroupedFlowables()
+               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+      Paragraph('Database used SQLite, database t...')   C:16 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <paragraph>
+           > (0,0,0,0,2) body [Sphinx] > default
+          MixedStyledText('Database used SQLite, database t...')
+            MixedStyledText('Database used SQLite, database t...')
+              SingleStyledText('Database used SQLite, database t...')
+      List(style='bulleted')   C:19 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <bullet_list>
+           > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+        ListItem()   C:20 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <list_item>
+             x (0,0,1,0,4) bulleted list item
+          ListItemLabel('•')
+               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                 (0,0,0,0,2) list item label [Sphinx] > default
+              MixedStyledText('•')
+                SingleStyledText('')
+                SingleStyledText('•')
+                SingleStyledText('')
+          StaticGroupedFlowables()
+               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
     Footer('		1')
@@ -526,15 +589,50 @@
                           MixedStyledText('Parameters')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\txt_to_speech.py:docstring of txt_to_speech.text_to_speech   <field_name>
                             SingleStyledText('Parameters')
                     StaticGroupedFlowables()   <field_body>
-                      Paragraph('text – A string of text.')   <paragraph>
+                      Paragraph('text (str) – A string of text.')   <paragraph>
                            > (0,0,0,0,2) body [Sphinx] > default
-                          MixedStyledText('text – A string of text.')
-                            MixedStyledText('text – A string of text.')
+                          MixedStyledText('text (str) – A string of text.')
+                            MixedStyledText('text (str) – A string of text.')
                               MixedStyledText('text', style='literal strong')   <literal_strong>
                                    > (0,0,1,0,1) literal strong [Sphinx] > strong
                                 SingleStyledText('text')
+                              SingleStyledText(' (')
+                              MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                   > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                SingleStyledText('str')
+                              SingleStyledText(')')
                               SingleStyledText(' – ')
                               SingleStyledText('A string of text.')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Returns', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Returns')
+                          MixedStyledText('Returns')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\txt_to_speech.py:docstring of txt_to_speech.text_to_speech   <field_name>
+                            SingleStyledText('Returns')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('returns text in the form of bina...')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('returns text in the form of bina...')
+                            MixedStyledText('returns text in the form of bina...')
+                              SingleStyledText('returns text in the form of bina...')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Return type', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Return type')
+                          MixedStyledText('Return type')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\txt_to_speech.py:docstring of txt_to_speech.text_to_speech   <field_name>
+                            SingleStyledText('Return type')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('str')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('str')
+                            MixedStyledText('str')
+                              SingleStyledText('str')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
     Footer('		3')
@@ -602,6 +700,177 @@
           Field('2', style='number')
                > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
             SingleStyledText('2')
+  Paragraph('Speech to text', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Speech to text')
+        MixedStyledText('Speech to text')
+          MixedStyledText('Speech to text')
+            SingleStyledText('Speech to text')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <document>
+      Section(id='speech-to-text')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt:2   <section>
+           > (0,0,0,1,4) content chapter [Sphinx] > chapter
+             (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+        Section(id='converts-speech-to-text')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt:4   <section>
+          Heading('2.1 Converts speech to text')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt:4   <title>
+               > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                 (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+              MixedStyledText('2.1 ')
+                SingleStyledText('2.1')
+                SingleStyledText(' ')
+              MixedStyledText('Converts speech to text')
+                MixedStyledText('Converts speech to text')
+                  SingleStyledText('Converts speech to text')
+          HorizontalRule()   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt:5   <transition>
+               > (0,0,0,0,2) horizontal rule [Sphinx] > DEFAULT
+          Paragraph('Use it like this:')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt:7   <paragraph>
+               > (0,0,0,0,2) body [Sphinx] > default
+              MixedStyledText('Use it like this:')
+                MixedStyledText('Use it like this:')
+                  MixedStyledText('Use it like this', style='emphasis')   <emphasis>
+                       > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                    SingleStyledText('Use it like this')
+                  SingleStyledText(':')
+          CodeBlock('from speech_to_txt import speech...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt:9   <literal_block>
+               > (1,0,0,0,2) code block [Sphinx] > DEFAULT
+                 (0,0,0,0,1) body [Sphinx] > default
+              MixedStyledText('from speech_to_txt import speech...')
+                MixedStyledText('from speech_to_txt import speech...')
+                  Token('from', type=Token.Keyword.Namespace)
+                       > (0,0,0,1,2) (pygments)Token.Keyword.Namespace [FriendlyStyle (pygments)] > DEFAULT
+                  Token(' ', type=Token.Text)
+                       > (0,0,0,1,2) (pygments)Token.Text [FriendlyStyle (pygments)] > DEFAULT
+                  Token('speech_to_txt', type=Token.Name.Namespace)
+                       > (0,0,0,1,2) (pygments)Token.Name.Namespace [FriendlyStyle (pygments)] > DEFAULT
+                  Token(' ', type=Token.Text)
+                       > (0,0,0,1,2) (pygments)Token.Text [FriendlyStyle (pygments)] > DEFAULT
+                  Token('import', type=Token.Keyword.Namespace)
+                       > (0,0,0,1,2) (pygments)Token.Keyword.Namespace [FriendlyStyle (pygments)] > DEFAULT
+                  Token(' ', type=Token.Text)
+                       > (0,0,0,1,2) (pygments)Token.Text [FriendlyStyle (pygments)] > DEFAULT
+                  Token('speech_to_text', type=Token.Name)
+                       > (0,0,0,1,2) (pygments)Token.Name [FriendlyStyle (pygments)] > DEFAULT
+                  Token('\n', type=Token.Text)
+                       > (0,0,0,1,2) (pygments)Token.Text [FriendlyStyle (pygments)] > DEFAULT
+                  Token('speech_to_text', type=Token.Name)
+                       > (0,0,0,1,2) (pygments)Token.Name [FriendlyStyle (pygments)] > DEFAULT
+                  Token('()', type=Token.Punctuation)
+                       > (0,0,0,1,2) (pygments)Token.Punctuation [FriendlyStyle (pygments)] > DEFAULT
+                  Token('\n', type=Token.Text)
+                       > (0,0,0,1,2) (pygments)Token.Text [FriendlyStyle (pygments)] > DEFAULT
+          LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text   <desc>
+               > (0,0,1,0,2) object description [Sphinx] > definition list item
+            StaticGroupedFlowables(style='signatures')
+                 > (0,0,2,0,3) object signatures [Sphinx] > definition term
+              Paragraph('speech_to_txt.speech_to_text (  ...', id='speech_to_txt.speech_to_text')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text:1   <desc_signature>
+                   > (0,0,2,0,5) object signature [Sphinx] > definition term paragraph
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('speech_to_txt.speech_to_text (  ...')
+                    MixedStyledText('speech_to_txt.speech_to_text (  ...')
+                      MixedStyledText('speech_to_txt.', style='additional name part')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text   <desc_addname>
+                           > (0,0,3,0,6) additional name part [Sphinx] > monospaced
+                        SingleStyledText('speech_to_txt.')
+                      MixedStyledText('speech_to_text', style='main object name')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text   <desc_name>
+                           > (0,0,3,0,6) object name [Sphinx] > DEFAULT
+                        SingleStyledText('speech_to_text')
+                      MixedStyledText(' (  ) ')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text   <desc_parameterlist>
+                        MixedStyledText(' ( ')
+                          SingleStyledText(' ( ', style='parentheses')
+                               > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+                          MixedStyledText('', style='parameter list')
+                               > (0,0,3,0,6) object parameter list [Sphinx] > DEFAULT
+                        SingleStyledText(' ) ', style='parentheses')
+                             > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+                      MixedStyledText('→ None')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text   <desc_returns>
+                        MixedStyledText('→ ')
+                          SingleStyledText('→', style='returns arrow')
+                          SingleStyledText(' ')
+                        MixedStyledText('None', style='returns')
+                             > (0,0,3,0,6) object returns [Sphinx] > DEFAULT
+                          SingleStyledText('None')
+            StaticGroupedFlowables(style='content')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text   <desc_content>
+                 > (0,0,2,0,3) object description content [Sphinx] > definition
+              Paragraph('reads the dd.wav and sends the d...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text:1   <paragraph>
+                   > (0,0,2,0,5) object description content paragraph [Sphinx] > body
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('reads the dd.wav and sends the d...')
+                    MixedStyledText('reads the dd.wav and sends the d...')
+                      SingleStyledText('reads the dd.wav and sends the d...')
+              Paragraph('Returns: text form of speech is ...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\speech_to_txt.py:docstring of speech_to_txt.speech_to_text:4   <paragraph>
+                   > (0,0,2,0,5) object description content paragraph [Sphinx] > body
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Returns: text form of speech is ...')
+                    MixedStyledText('Returns: text form of speech is ...')
+                      SingleStyledText('Returns: text form of speech is ...')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		5')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		5')
+          MixedStyledText('		5')
+            Tab('	')
+            Tab('	')
+            Field('5')
+              SingleStyledText('5')
+---------------------------------- page 6 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <document>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('AmazonEcho documentation, Releas...')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('AmazonEcho documentation, Releas...')
+          MixedStyledText('AmazonEcho documentation, Releas...')
+            Field('AmazonEcho documentation')
+              SingleStyledText('AmazonEcho documentation')
+            SingleStyledText(', ')
+            Field('Release 0.1.0')
+              SingleStyledText('Release 0.1.0')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('6		Chapter 2.  Speech to text')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('6		Chapter 2.  Speech to text')
+          MixedStyledText('6		Chapter 2.  Speech to text')
+            Field('6')
+              SingleStyledText('6')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('2')
+              SingleStyledText('2')
+            SingleStyledText('.  ')
+            Field('Speech to text')
+              MixedStyledText('Speech to text')
+                MixedStyledText('Speech to text')
+                  SingleStyledText('Speech to text')
+---------------------------------- page 7 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 3', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 3')
+        MixedStyledText('Chapter 3')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('3', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('3')
   Paragraph('Answer Question Mode', style='body matter chapter title')
        > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
@@ -616,11 +885,11 @@
            > (0,0,0,1,4) content chapter [Sphinx] > chapter
              (0,0,0,1,2) chapter [Sphinx] > DEFAULT
         Section(id='answer-question-method')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\answer_service.py:docstring of answer_service:4   <section>
-          Heading('2.1 Answer question method')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\answer_service.py:docstring of answer_service:4   <title>
+          Heading('3.1 Answer question method')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\answer_service.py:docstring of answer_service:4   <title>
                > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
                  (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-              MixedStyledText('2.1 ')
-                SingleStyledText('2.1')
+              MixedStyledText('3.1 ')
+                SingleStyledText('3.1')
                 SingleStyledText(' ')
               MixedStyledText('Answer question method')
                 MixedStyledText('Answer question method')
@@ -650,7 +919,7 @@
                     MixedStyledText('from answer_service import answe...')
                       MixedStyledText('from answer_service import answe...')
                         SingleStyledText('from answer_service import answe...')
-          LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\answer_service.py:docstring of answer_service.answer_mode   <desc>
+          LabeledFlowable(style='object description')   <desc>
                > (0,0,1,0,2) object description [Sphinx] > definition list item
             StaticGroupedFlowables(style='signatures')
                  > (0,0,2,0,3) object signatures [Sphinx] > definition term
@@ -699,17 +968,74 @@
                   MixedStyledText('Takes a users question in string...')
                     MixedStyledText('Takes a users question in string...')
                       SingleStyledText('Takes a users question in string...')
+              DefinitionList(style='field list')   <field_list>
+                   > (0,0,1,0,2) field list [Sphinx] > DEFAULT
+                     (0,0,0,0,2) definition list [Sphinx] > DEFAULT
+                LabeledFlowable()   <field>
+                     > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                       (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                  Paragraph('Parameters', style='field name')
+                       > (0,0,2,0,6) field name [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('Parameters')
+                        MixedStyledText('Parameters')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\answer_service.py:docstring of answer_service.answer_mode   <field_name>
+                          SingleStyledText('Parameters')
+                  StaticGroupedFlowables()   <field_body>
+                    Paragraph('question (str) – a string of tex...')   <paragraph>
+                         > (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('question (str) – a string of tex...')
+                          MixedStyledText('question (str) – a string of tex...')
+                            MixedStyledText('question', style='literal strong')   <literal_strong>
+                                 > (0,0,1,0,1) literal strong [Sphinx] > strong
+                              SingleStyledText('question')
+                            SingleStyledText(' (')
+                            MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                 > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                              SingleStyledText('str')
+                            SingleStyledText(')')
+                            SingleStyledText(' – ')
+                            SingleStyledText('a string of text')
+                LabeledFlowable()   <field>
+                     > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                       (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                  Paragraph('Returns', style='field name')
+                       > (0,0,2,0,6) field name [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('Returns')
+                        MixedStyledText('Returns')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\answer_service.py:docstring of answer_service.answer_mode   <field_name>
+                          SingleStyledText('Returns')
+                  StaticGroupedFlowables()   <field_body>
+                    Paragraph('response to the question from ap...')   <paragraph>
+                         > (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('response to the question from ap...')
+                          MixedStyledText('response to the question from ap...')
+                            SingleStyledText('response to the question from ap...')
+                LabeledFlowable()   <field>
+                     > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                       (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                  Paragraph('Return type', style='field name')
+                       > (0,0,2,0,6) field name [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('Return type')
+                        MixedStyledText('Return type')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\answer_service.py:docstring of answer_service.answer_mode   <field_name>
+                          SingleStyledText('Return type')
+                  StaticGroupedFlowables()   <field_body>
+                    Paragraph('str')   <paragraph>
+                         > (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('str')
+                          MixedStyledText('str')
+                            SingleStyledText('str')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('		5')
+    Footer('		7')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('		5')
-          MixedStyledText('		5')
+        MixedStyledText('		7')
+          MixedStyledText('		7')
             Tab('	')
             Tab('	')
-            Field('5')
-              SingleStyledText('5')
----------------------------------- page 6 ----------------------------------
+            Field('7')
+              SingleStyledText('7')
+---------------------------------- page 8 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
@@ -730,42 +1056,42 @@
               SingleStyledText('Release 0.1.0')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('6		Chapter 2.  Answer Question M...')
+    Footer('8		Chapter 3.  Answer Question M...')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('6		Chapter 2.  Answer Question M...')
-          MixedStyledText('6		Chapter 2.  Answer Question M...')
-            Field('6')
-              SingleStyledText('6')
+        MixedStyledText('8		Chapter 3.  Answer Question M...')
+          MixedStyledText('8		Chapter 3.  Answer Question M...')
+            Field('8')
+              SingleStyledText('8')
             Tab('	')
             Tab('	')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-            Field('2')
-              SingleStyledText('2')
+            Field('3')
+              SingleStyledText('3')
             SingleStyledText('.  ')
             Field('Answer Question Mode')
               MixedStyledText('Answer Question Mode')
                 MixedStyledText('Answer Question Mode')
                   SingleStyledText('Answer Question Mode')
----------------------------------- page 7 ----------------------------------
+---------------------------------- page 9 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
   StaticGroupedFlowables()
 #### FlowablesContainer('chapter title')
-  Paragraph('Chapter 3', style='body matter chapter label')
+  Paragraph('Chapter 4', style='body matter chapter label')
        > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
-      MixedStyledText('Chapter 3')
-        MixedStyledText('Chapter 3')
+      MixedStyledText('Chapter 4')
+        MixedStyledText('Chapter 4')
           MixedStyledText('Chapter ')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-          Field('3', style='number')
+          Field('4', style='number')
                > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
-            SingleStyledText('3')
+            SingleStyledText('4')
   Paragraph('Database Configuration', style='body matter chapter title')
        > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
@@ -780,21 +1106,21 @@
            > (0,0,0,1,4) content chapter [Sphinx] > chapter
              (0,0,0,1,2) chapter [Sphinx] > DEFAULT
         Section(id='add-data-to-database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry:4   <section>
-          Heading('3.1 Add data to database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry:4   <title>
+          Heading('4.1 Add data to database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry:4   <title>
                > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
                  (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-              MixedStyledText('3.1 ')
-                SingleStyledText('3.1')
+              MixedStyledText('4.1 ')
+                SingleStyledText('4.1')
                 SingleStyledText(' ')
               MixedStyledText('Add data to database')
                 MixedStyledText('Add data to database')
                   SingleStyledText('Add data to database')
           Section(id='id1')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry:6   <section>
-            Heading('3.1.1 Add data to database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry:6   <title>
+            Heading('4.1.1 Add data to database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry:6   <title>
                  > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
                    (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-                MixedStyledText('3.1.1 ')
-                  SingleStyledText('3.1.1')
+                MixedStyledText('4.1.1 ')
+                  SingleStyledText('4.1.1')
                   SingleStyledText(' ')
                 MixedStyledText('Add data to database')
                   MixedStyledText('Add data to database')
@@ -862,7 +1188,7 @@
                          > (0,0,0,1,2) (pygments)Token.Punctuation [FriendlyStyle (pygments)] > DEFAULT
                     Token('\n', type=Token.Text)
                          > (0,0,0,1,2) (pygments)Token.Text [FriendlyStyle (pygments)] > DEFAULT
-            LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.convert_into_binary   <desc>
+            LabeledFlowable(style='object description')   <desc>
                  > (0,0,1,0,2) object description [Sphinx] > definition list item
               StaticGroupedFlowables(style='signatures')
                    > (0,0,2,0,3) object signatures [Sphinx] > definition term
@@ -911,6 +1237,63 @@
                     MixedStyledText('Takes a file with wav format con...')
                       MixedStyledText('Takes a file with wav format con...')
                         SingleStyledText('Takes a file with wav format con...')
+                DefinitionList(style='field list')   <field_list>
+                     > (0,0,1,0,2) field list [Sphinx] > DEFAULT
+                       (0,0,0,0,2) definition list [Sphinx] > DEFAULT
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Parameters', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Parameters')
+                          MixedStyledText('Parameters')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.convert_into_binary   <field_name>
+                            SingleStyledText('Parameters')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('file_path (str) – file path')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('file_path (str) – file path')
+                            MixedStyledText('file_path (str) – file path')
+                              MixedStyledText('file_path', style='literal strong')   <literal_strong>
+                                   > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                SingleStyledText('file_path')
+                              SingleStyledText(' (')
+                              MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                   > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                SingleStyledText('str')
+                              SingleStyledText(')')
+                              SingleStyledText(' – ')
+                              SingleStyledText('file path')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Returns', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Returns')
+                          MixedStyledText('Returns')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.convert_into_binary   <field_name>
+                            SingleStyledText('Returns')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('returns binary')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('returns binary')
+                            MixedStyledText('returns binary')
+                              SingleStyledText('returns binary')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Return type', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Return type')
+                          MixedStyledText('Return type')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.convert_into_binary   <field_name>
+                            SingleStyledText('Return type')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('str')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('str')
+                            MixedStyledText('str')
+                              SingleStyledText('str')
             LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.create_db_table   <desc>
                  > (0,0,1,0,2) object description [Sphinx] > definition list item
               StaticGroupedFlowables(style='signatures')
@@ -1050,6 +1433,157 @@
                     MixedStyledText('inserts audio data into sqlite a...')
                       MixedStyledText('inserts audio data into sqlite a...')
                         SingleStyledText('inserts audio data into sqlite a...')
+                DefinitionList(style='field list')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.insert_file   <field_list>
+                     > (0,0,1,0,2) field list [Sphinx] > DEFAULT
+                       (0,0,0,0,2) definition list [Sphinx] > DEFAULT
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Parameters', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Parameters')
+                          MixedStyledText('Parameters')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.insert_file   <field_name>
+                            SingleStyledText('Parameters')
+                    StaticGroupedFlowables()   <field_body>
+                      List(style='bulleted')   <bullet_list>
+                           > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('file_name (str) – audio file nam...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('file_name (str) – audio file nam...')
+                                  MixedStyledText('file_name (str) – audio file nam...')
+                                    MixedStyledText('file_name', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('file_name')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('str')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('audio file name')
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('db_name (str) – database name to...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('db_name (str) – database name to...')
+                                  MixedStyledText('db_name (str) – database name to...')
+                                    MixedStyledText('db_name', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('db_name')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('str')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('database name to connect')
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('table_name (str) – table name to...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('table_name (str) – table name to...')
+                                  MixedStyledText('table_name (str) – table name to...')
+                                    MixedStyledText('table_name', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('table_name')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('str')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('table name to connect')
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('category (str) – category of aud...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('category (str) – category of aud...')
+                                  MixedStyledText('category (str) – category of aud...')
+                                    MixedStyledText('category', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('category')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('str')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('category of audio e.g. Loud')
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('SHORT_DESC (str) – description o...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('SHORT_DESC (str) – description o...')
+                                  MixedStyledText('SHORT_DESC (str) – description o...')
+                                    MixedStyledText('SHORT_DESC', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('SHORT_DESC')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('str')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('description of the audio')
+                Paragraph('Returns: adds data to database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.insert_file:14   <paragraph>
+                     > (0,0,2,0,5) object description content paragraph [Sphinx] > body
+                       (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Returns: adds data to database')
+                      MixedStyledText('Returns: adds data to database')
+                        SingleStyledText('Returns: adds data to database')
             LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_entry.py:docstring of database_entry.sqlite_connect   <desc>
                  > (0,0,1,0,2) object description [Sphinx] > definition list item
               StaticGroupedFlowables(style='signatures')
@@ -1101,15 +1635,15 @@
                         SingleStyledText('takes database name and attempts...')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('		7')
+    Footer('		9')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('		7')
-          MixedStyledText('		7')
+        MixedStyledText('		9')
+          MixedStyledText('		9')
             Tab('	')
             Tab('	')
-            Field('7')
-              SingleStyledText('7')
----------------------------------- page 8 ----------------------------------
+            Field('9')
+              SingleStyledText('9')
+---------------------------------- page 10 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
@@ -1130,42 +1664,42 @@
               SingleStyledText('Release 0.1.0')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('8		Chapter 3.  Database Configur...')
+    Footer('10		Chapter 4.  Database Configu...')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('8		Chapter 3.  Database Configur...')
-          MixedStyledText('8		Chapter 3.  Database Configur...')
-            Field('8')
-              SingleStyledText('8')
+        MixedStyledText('10		Chapter 4.  Database Configu...')
+          MixedStyledText('10		Chapter 4.  Database Configu...')
+            Field('10')
+              SingleStyledText('10')
             Tab('	')
             Tab('	')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-            Field('3')
-              SingleStyledText('3')
+            Field('4')
+              SingleStyledText('4')
             SingleStyledText('.  ')
             Field('Database Configuration')
               MixedStyledText('Database Configuration')
                 MixedStyledText('Database Configuration')
                   SingleStyledText('Database Configuration')
----------------------------------- page 9 ----------------------------------
+---------------------------------- page 11 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
   StaticGroupedFlowables()
 #### FlowablesContainer('chapter title')
-  Paragraph('Chapter 4', style='body matter chapter label')
+  Paragraph('Chapter 5', style='body matter chapter label')
        > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
-      MixedStyledText('Chapter 4')
-        MixedStyledText('Chapter 4')
+      MixedStyledText('Chapter 5')
+        MixedStyledText('Chapter 5')
           MixedStyledText('Chapter ')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-          Field('4', style='number')
+          Field('5', style='number')
                > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
-            SingleStyledText('4')
+            SingleStyledText('5')
   Paragraph('Database Configuration', style='body matter chapter title')
        > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
@@ -1180,21 +1714,21 @@
            > (0,0,0,1,4) content chapter [Sphinx] > chapter
              (0,0,0,1,2) chapter [Sphinx] > DEFAULT
         Section(id='retrive-data-from-database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_retriv.py:docstring of database_retriv:4   <section>
-          Heading('4.1 Retrive data from database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_retriv.py:docstring of database_retriv:4   <title>
+          Heading('5.1 Retrive data from database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_retriv.py:docstring of database_retriv:4   <title>
                > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
                  (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-              MixedStyledText('4.1 ')
-                SingleStyledText('4.1')
+              MixedStyledText('5.1 ')
+                SingleStyledText('5.1')
                 SingleStyledText(' ')
               MixedStyledText('Retrive data from database')
                 MixedStyledText('Retrive data from database')
                   SingleStyledText('Retrive data from database')
           Section(id='id3')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_retriv.py:docstring of database_retriv:6   <section>
-            Heading('4.1.1 Retrive data from database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_retriv.py:docstring of database_retriv:6   <title>
+            Heading('5.1.1 Retrive data from database')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\database_retriv.py:docstring of database_retriv:6   <title>
                  > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
                    (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-                MixedStyledText('4.1.1 ')
-                  SingleStyledText('4.1.1')
+                MixedStyledText('5.1.1 ')
+                  SingleStyledText('5.1.1')
                   SingleStyledText(' ')
                 MixedStyledText('Retrive data from database')
                   MixedStyledText('Retrive data from database')
@@ -1289,15 +1823,15 @@
                         SingleStyledText('takes in a string and searches t...')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('		9')
+    Footer('		11')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('		9')
-          MixedStyledText('		9')
+        MixedStyledText('		11')
+          MixedStyledText('		11')
             Tab('	')
             Tab('	')
-            Field('9')
-              SingleStyledText('9')
----------------------------------- page 10 ----------------------------------
+            Field('11')
+              SingleStyledText('11')
+---------------------------------- page 12 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
@@ -1318,42 +1852,42 @@
               SingleStyledText('Release 0.1.0')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('10		Chapter 4.  Database Configu...')
+    Footer('12		Chapter 5.  Database Configu...')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('10		Chapter 4.  Database Configu...')
-          MixedStyledText('10		Chapter 4.  Database Configu...')
-            Field('10')
-              SingleStyledText('10')
+        MixedStyledText('12		Chapter 5.  Database Configu...')
+          MixedStyledText('12		Chapter 5.  Database Configu...')
+            Field('12')
+              SingleStyledText('12')
             Tab('	')
             Tab('	')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-            Field('4')
-              SingleStyledText('4')
+            Field('5')
+              SingleStyledText('5')
             SingleStyledText('.  ')
             Field('Database Configuration')
               MixedStyledText('Database Configuration')
                 MixedStyledText('Database Configuration')
                   SingleStyledText('Database Configuration')
----------------------------------- page 11 ----------------------------------
+---------------------------------- page 13 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
   StaticGroupedFlowables()
 #### FlowablesContainer('chapter title')
-  Paragraph('Chapter 5', style='body matter chapter label')
+  Paragraph('Chapter 6', style='body matter chapter label')
        > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
-      MixedStyledText('Chapter 5')
-        MixedStyledText('Chapter 5')
+      MixedStyledText('Chapter 6')
+        MixedStyledText('Chapter 6')
           MixedStyledText('Chapter ')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-          Field('5', style='number')
+          Field('6', style='number')
                > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
-            SingleStyledText('5')
+            SingleStyledText('6')
   Paragraph('Listening service', style='body matter chapter title')
        > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
@@ -1367,29 +1901,29 @@
       Section(id='listening-service')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:2   <section>
            > (0,0,0,1,4) content chapter [Sphinx] > chapter
              (0,0,0,1,2) chapter [Sphinx] > DEFAULT
-        Section(id='listens-translate-users-voice-into-text')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:4   <section>
-          Heading('5.1 Listens & Translate users vo...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:4   <title>
+        Section(id='records-users-voice-into-text')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:4   <section>
+          Heading('6.1 Records users voice into tex...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:4   <title>
                > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
                  (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-              MixedStyledText('5.1 ')
-                SingleStyledText('5.1')
+              MixedStyledText('6.1 ')
+                SingleStyledText('6.1')
                 SingleStyledText(' ')
-              MixedStyledText('Listens & Translate users voice ...')
-                MixedStyledText('Listens & Translate users voice ...')
-                  SingleStyledText('Listens & Translate users voice ...')
-          Section(id='id4')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:6   <section>
-            Heading('5.1.1 Listens & Translate users ...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:6   <title>
+              MixedStyledText('Records users voice into text')
+                MixedStyledText('Records users voice into text')
+                  SingleStyledText('Records users voice into text')
+          Section(id='listens-users-voice-into-text')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:6   <section>
+            Heading('6.1.1 Listens users voice into t...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:6   <title>
                  > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
                    (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-                MixedStyledText('5.1.1 ')
-                  SingleStyledText('5.1.1')
+                MixedStyledText('6.1.1 ')
+                  SingleStyledText('6.1.1')
                   SingleStyledText(' ')
-                MixedStyledText('Listens & Translate users voice ...')
-                  MixedStyledText('Listens & Translate users voice ...')
-                    SingleStyledText('Listens & Translate users voice ...')
+                MixedStyledText('Listens users voice into text')
+                  MixedStyledText('Listens users voice into text')
+                    SingleStyledText('Listens users voice into text')
             DefinitionList()   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.record   <definition_list>
                  > (0,0,0,0,2) definition list [Sphinx] > DEFAULT
-              LabeledFlowable()   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:11   <definition_list_item>
+              LabeledFlowable()   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:10   <definition_list_item>
                    > (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
                 StaticGroupedFlowables(style='definition term')
                      > (0,0,1,0,5) definition term [Sphinx] > DEFAULT
@@ -1397,7 +1931,7 @@
                        > (0,0,1,0,7) definition term paragraph [Sphinx] > default
                          (0,0,0,0,2) body [Sphinx] > default
                       MixedStyledText('Use it like this::')
-                        MixedStyledText('Use it like this::')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:11   <term>
+                        MixedStyledText('Use it like this::')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service:10   <term>
                           MixedStyledText('Use it like this', style='emphasis')   <emphasis>
                                > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
                             SingleStyledText('Use it like this')
@@ -1410,7 +1944,7 @@
                       MixedStyledText('record() #  this will start voic...')
                         MixedStyledText('record() #  this will start voic...')
                           SingleStyledText('record() #  this will start voic...')
-            LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.record   <desc>
+            LabeledFlowable(style='object description')   <desc>
                  > (0,0,1,0,2) object description [Sphinx] > definition list item
               StaticGroupedFlowables(style='signatures')
                    > (0,0,2,0,3) object signatures [Sphinx] > definition term
@@ -1456,55 +1990,80 @@
                     MixedStyledText('pyaudio records users voice and ...')
                       MixedStyledText('pyaudio records users voice and ...')
                         SingleStyledText('pyaudio records users voice and ...')
-            LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.speech_to_text   <desc>
-                 > (0,0,1,0,2) object description [Sphinx] > definition list item
-              StaticGroupedFlowables(style='signatures')
-                   > (0,0,2,0,3) object signatures [Sphinx] > definition term
-                Paragraph('listening_service.speech_to_text...', id='listening_service.speech_to_text')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.speech_to_text:1   <desc_signature>
-                     > (0,0,2,0,5) object signature [Sphinx] > definition term paragraph
-                       (0,0,0,0,2) body [Sphinx] > default
-                    MixedStyledText('listening_service.speech_to_text...')
-                      MixedStyledText('listening_service.speech_to_text...')
-                        MixedStyledText('listening_service.', style='additional name part')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.speech_to_text   <desc_addname>
-                             > (0,0,3,0,6) additional name part [Sphinx] > monospaced
-                          SingleStyledText('listening_service.')
-                        MixedStyledText('speech_to_text', style='main object name')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.speech_to_text   <desc_name>
-                             > (0,0,3,0,6) object name [Sphinx] > DEFAULT
-                          SingleStyledText('speech_to_text')
-                        MixedStyledText(' (  ) ')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.speech_to_text   <desc_parameterlist>
-                          MixedStyledText(' ( ')
-                            SingleStyledText(' ( ', style='parentheses')
-                                 > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
-                            MixedStyledText('', style='parameter list')
-                                 > (0,0,3,0,6) object parameter list [Sphinx] > DEFAULT
-                          SingleStyledText(' ) ', style='parentheses')
-                               > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
-                        MixedStyledText('→ None')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.speech_to_text   <desc_returns>
-                          MixedStyledText('→ ')
-                            SingleStyledText('→', style='returns arrow')
-                            SingleStyledText(' ')
-                          MixedStyledText('None', style='returns')
-                               > (0,0,3,0,6) object returns [Sphinx] > DEFAULT
-                            SingleStyledText('None')
-              StaticGroupedFlowables(style='content')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.speech_to_text   <desc_content>
-                   > (0,0,2,0,3) object description content [Sphinx] > definition
-                Paragraph('reads the dd.wav and sends the d...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.speech_to_text:1   <paragraph>
-                     > (0,0,2,0,5) object description content paragraph [Sphinx] > body
-                       (0,0,0,0,2) body [Sphinx] > default
-                    MixedStyledText('reads the dd.wav and sends the d...')
-                      MixedStyledText('reads the dd.wav and sends the d...')
-                        SingleStyledText('reads the dd.wav and sends the d...')
+                DefinitionList(style='field list')   <field_list>
+                     > (0,0,1,0,2) field list [Sphinx] > DEFAULT
+                       (0,0,0,0,2) definition list [Sphinx] > DEFAULT
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Parameters', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Parameters')
+                          MixedStyledText('Parameters')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.record   <field_name>
+                            SingleStyledText('Parameters')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('duration (float, optional) – Def...')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('duration (float, optional) – Def...')
+                            MixedStyledText('duration (float, optional) – Def...')
+                              MixedStyledText('duration', style='literal strong')   <literal_strong>
+                                   > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                SingleStyledText('duration')
+                              SingleStyledText(' (')
+                              MixedStyledText('float', style='literal emphasis')   <literal_emphasis>
+                                   > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                SingleStyledText('float')
+                              MixedStyledText(', ', style='literal emphasis')   <literal_emphasis>
+                                   > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                SingleStyledText(', ')
+                              MixedStyledText('optional', style='literal emphasis')   <literal_emphasis>
+                                   > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                SingleStyledText('optional')
+                              SingleStyledText(')')
+                              SingleStyledText(' – ')
+                              SingleStyledText('Defaults to 5.0.')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Returns', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Returns')
+                          MixedStyledText('Returns')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.record   <field_name>
+                            SingleStyledText('Returns')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('Microphone begins recording voic...')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('Microphone begins recording voic...')
+                            MixedStyledText('Microphone begins recording voic...')
+                              SingleStyledText('Microphone begins recording voic...')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Return type', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Return type')
+                          MixedStyledText('Return type')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\listening_service.py:docstring of listening_service.record   <field_name>
+                            SingleStyledText('Return type')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('bool')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('bool')
+                            MixedStyledText('bool')
+                              SingleStyledText('bool')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('		11')
+    Footer('		13')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('		11')
-          MixedStyledText('		11')
+        MixedStyledText('		13')
+          MixedStyledText('		13')
             Tab('	')
             Tab('	')
-            Field('11')
-              SingleStyledText('11')
----------------------------------- page 12 ----------------------------------
+            Field('13')
+              SingleStyledText('13')
+---------------------------------- page 14 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
@@ -1525,42 +2084,42 @@
               SingleStyledText('Release 0.1.0')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('12		Chapter 5.  Listening servic...')
+    Footer('14		Chapter 6.  Listening servic...')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('12		Chapter 5.  Listening servic...')
-          MixedStyledText('12		Chapter 5.  Listening servic...')
-            Field('12')
-              SingleStyledText('12')
+        MixedStyledText('14		Chapter 6.  Listening servic...')
+          MixedStyledText('14		Chapter 6.  Listening servic...')
+            Field('14')
+              SingleStyledText('14')
             Tab('	')
             Tab('	')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-            Field('5')
-              SingleStyledText('5')
+            Field('6')
+              SingleStyledText('6')
             SingleStyledText('.  ')
             Field('Listening service')
               MixedStyledText('Listening service')
                 MixedStyledText('Listening service')
                   SingleStyledText('Listening service')
----------------------------------- page 13 ----------------------------------
+---------------------------------- page 15 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
   StaticGroupedFlowables()
 #### FlowablesContainer('chapter title')
-  Paragraph('Chapter 6', style='body matter chapter label')
+  Paragraph('Chapter 7', style='body matter chapter label')
        > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
-      MixedStyledText('Chapter 6')
-        MixedStyledText('Chapter 6')
+      MixedStyledText('Chapter 7')
+        MixedStyledText('Chapter 7')
           MixedStyledText('Chapter ')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-          Field('6', style='number')
+          Field('7', style='number')
                > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
-            SingleStyledText('6')
+            SingleStyledText('7')
   Paragraph('Play service', style='body matter chapter title')
        > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
@@ -1575,21 +2134,21 @@
            > (0,0,0,1,4) content chapter [Sphinx] > chapter
              (0,0,0,1,2) chapter [Sphinx] > DEFAULT
         Section(id='plays-binary')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service:4   <section>
-          Heading('6.1 Plays Binary')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service:4   <title>
+          Heading('7.1 Plays Binary')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service:4   <title>
                > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
                  (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-              MixedStyledText('6.1 ')
-                SingleStyledText('6.1')
+              MixedStyledText('7.1 ')
+                SingleStyledText('7.1')
                 SingleStyledText(' ')
               MixedStyledText('Plays Binary')
                 MixedStyledText('Plays Binary')
                   SingleStyledText('Plays Binary')
-          Section(id='id5')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service:6   <section>
-            Heading('6.1.1 Plays Binary')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service:6   <title>
+          Section(id='id4')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service:6   <section>
+            Heading('7.1.1 Plays Binary')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service:6   <title>
                  > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
                    (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-                MixedStyledText('6.1.1 ')
-                  SingleStyledText('6.1.1')
+                MixedStyledText('7.1.1 ')
+                  SingleStyledText('7.1.1')
                   SingleStyledText(' ')
                 MixedStyledText('Plays Binary')
                   MixedStyledText('Plays Binary')
@@ -1629,7 +2188,7 @@
                          > (0,0,0,1,2) (pygments)Token.Punctuation [FriendlyStyle (pygments)] > DEFAULT
                     Token('\n', type=Token.Text)
                          > (0,0,0,1,2) (pygments)Token.Text [FriendlyStyle (pygments)] > DEFAULT
-            LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service.play   <desc>
+            LabeledFlowable(style='object description')   <desc>
                  > (0,0,1,0,2) object description [Sphinx] > definition list item
               StaticGroupedFlowables(style='signatures')
                    > (0,0,2,0,3) object signatures [Sphinx] > definition term
@@ -1671,17 +2230,63 @@
                     MixedStyledText('takes in wav data and plays it')
                       MixedStyledText('takes in wav data and plays it')
                         SingleStyledText('takes in wav data and plays it')
+                DefinitionList(style='field list')   <field_list>
+                     > (0,0,1,0,2) field list [Sphinx] > DEFAULT
+                       (0,0,0,0,2) definition list [Sphinx] > DEFAULT
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Parameters', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Parameters')
+                          MixedStyledText('Parameters')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service.play   <field_name>
+                            SingleStyledText('Parameters')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('audio_in (any) – A Binary')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('audio_in (any) – A Binary')
+                            MixedStyledText('audio_in (any) – A Binary')
+                              MixedStyledText('audio_in', style='literal strong')   <literal_strong>
+                                   > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                SingleStyledText('audio_in')
+                              SingleStyledText(' (')
+                              MixedStyledText('any', style='literal emphasis')   <literal_emphasis>
+                                   > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                SingleStyledText('any')
+                              SingleStyledText(')')
+                              SingleStyledText(' – ')
+                              SingleStyledText('A Binary')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Raises', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Raises')
+                          MixedStyledText('Raises')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\play_service.py:docstring of play_service.play   <field_name>
+                            SingleStyledText('Raises')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('FileNotFoundError – if recording...')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('FileNotFoundError – if recording...')
+                            MixedStyledText('FileNotFoundError – if recording...')
+                              MixedStyledText('FileNotFoundError', style='literal strong')   <literal_strong>
+                                   > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                SingleStyledText('FileNotFoundError')
+                              SingleStyledText(' – ')
+                              SingleStyledText('if recording is not saved')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('		13')
+    Footer('		15')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('		13')
-          MixedStyledText('		13')
+        MixedStyledText('		15')
+          MixedStyledText('		15')
             Tab('	')
             Tab('	')
-            Field('13')
-              SingleStyledText('13')
----------------------------------- page 14 ----------------------------------
+            Field('15')
+              SingleStyledText('15')
+---------------------------------- page 16 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
@@ -1702,42 +2307,42 @@
               SingleStyledText('Release 0.1.0')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('14		Chapter 6.  Play service')
+    Footer('16		Chapter 7.  Play service')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('14		Chapter 6.  Play service')
-          MixedStyledText('14		Chapter 6.  Play service')
-            Field('14')
-              SingleStyledText('14')
+        MixedStyledText('16		Chapter 7.  Play service')
+          MixedStyledText('16		Chapter 7.  Play service')
+            Field('16')
+              SingleStyledText('16')
             Tab('	')
             Tab('	')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-            Field('6')
-              SingleStyledText('6')
+            Field('7')
+              SingleStyledText('7')
             SingleStyledText('.  ')
             Field('Play service')
               MixedStyledText('Play service')
                 MixedStyledText('Play service')
                   SingleStyledText('Play service')
----------------------------------- page 15 ----------------------------------
+---------------------------------- page 17 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
   StaticGroupedFlowables()
 #### FlowablesContainer('chapter title')
-  Paragraph('Chapter 7', style='body matter chapter label')
+  Paragraph('Chapter 8', style='body matter chapter label')
        > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
-      MixedStyledText('Chapter 7')
-        MixedStyledText('Chapter 7')
+      MixedStyledText('Chapter 8')
+        MixedStyledText('Chapter 8')
           MixedStyledText('Chapter ')
             StringField('Chapter')
               SingleStyledText('Chapter')
             SingleStyledText(' ')
-          Field('7', style='number')
+          Field('8', style='number')
                > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
-            SingleStyledText('7')
+            SingleStyledText('8')
   Paragraph('GUI & Controller', style='body matter chapter title')
        > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
          (0,0,0,0,2) body [Sphinx] > default
@@ -1752,21 +2357,21 @@
            > (0,0,0,1,4) content chapter [Sphinx] > chapter
              (0,0,0,1,2) chapter [Sphinx] > DEFAULT
         Section(id='runs-amazon-echo')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main:4   <section>
-          Heading('7.1 Runs Amazon Echo')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main:4   <title>
+          Heading('8.1 Runs Amazon Echo')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main:4   <title>
                > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
                  (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-              MixedStyledText('7.1 ')
-                SingleStyledText('7.1')
+              MixedStyledText('8.1 ')
+                SingleStyledText('8.1')
                 SingleStyledText(' ')
               MixedStyledText('Runs Amazon Echo')
                 MixedStyledText('Runs Amazon Echo')
                   SingleStyledText('Runs Amazon Echo')
           Section(id='runs-amazon-echo-program')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main:6   <section>
-            Heading('7.1.1 Runs Amazon Echo program')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main:6   <title>
+            Heading('8.1.1 Runs Amazon Echo program')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main:6   <title>
                  > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
                    (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
-                MixedStyledText('7.1.1 ')
-                  SingleStyledText('7.1.1')
+                MixedStyledText('8.1.1 ')
+                  SingleStyledText('8.1.1')
                   SingleStyledText(' ')
                 MixedStyledText('Runs Amazon Echo program')
                   MixedStyledText('Runs Amazon Echo program')
@@ -1841,12 +2446,12 @@
                             SingleStyledText('None')
               StaticGroupedFlowables(style='content')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main.controller   <desc_content>
                    > (0,0,2,0,3) object description content [Sphinx] > definition
-                Paragraph('this function acts as a directio...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main.controller:1   <paragraph>
+                Paragraph('A directional services for speec...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main.controller:1   <paragraph>
                      > (0,0,2,0,5) object description content paragraph [Sphinx] > body
                        (0,0,0,0,2) body [Sphinx] > default
-                    MixedStyledText('this function acts as a directio...')
-                      MixedStyledText('this function acts as a directio...')
-                        SingleStyledText('this function acts as a directio...')
+                    MixedStyledText('A directional services for speec...')
+                      MixedStyledText('A directional services for speec...')
+                        SingleStyledText('A directional services for speec...')
             LabeledFlowable(style='object description')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main.create_thread   <desc>
                  > (0,0,1,0,2) object description [Sphinx] > definition list item
               StaticGroupedFlowables(style='signatures')
@@ -1879,14 +2484,14 @@
                             SingleStyledText('None')
               StaticGroupedFlowables(style='content')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main.create_thread   <desc_content>
                    > (0,0,2,0,3) object description content [Sphinx] > definition
-                Paragraph('threading to solve frozen ON but...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main.create_thread:1   <paragraph>
+                Paragraph('To process multiple threads at s...')   C:\Users\Yahya\Desktop\AmazonEcho\echo_main\echo_components\main.py:docstring of main.create_thread:1   <paragraph>
                      > (0,0,2,0,5) object description content paragraph [Sphinx] > body
                        (0,0,0,0,2) body [Sphinx] > default
-                    MixedStyledText('threading to solve frozen ON but...')
-                      MixedStyledText('threading to solve frozen ON but...')
-                        SingleStyledText('threading to solve frozen ON but...')
+                    MixedStyledText('To process multiple threads at s...')
+                      MixedStyledText('To process multiple threads at s...')
+                        SingleStyledText('To process multiple threads at s...')
       StaticGroupedFlowables()   C (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <compound>
-      List(style='bulleted')   C:42 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <bullet_list>
+      List(style='bulleted')   C:52 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <bullet_list>
            > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
         ListItem()   C (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <list_item>
              x (0,0,1,0,4) bulleted list item
@@ -1899,7 +2504,7 @@
                 SingleStyledText('')
           StaticGroupedFlowables()
                > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
-            Paragraph('genindex')   C:42 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <paragraph>
+            Paragraph('genindex')   C:52 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <paragraph>
                  > (0,0,0,0,5) list item paragraph [Sphinx] > default
                    (0,0,0,0,2) body [Sphinx] > default
                 MixedStyledText('genindex')
@@ -1917,7 +2522,7 @@
                 SingleStyledText('')
           StaticGroupedFlowables()
                > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
-            Paragraph('modindex')   C:43 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <paragraph>
+            Paragraph('modindex')   C:53 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <paragraph>
                  > (0,0,0,0,5) list item paragraph [Sphinx] > default
                    (0,0,0,0,2) body [Sphinx] > default
                 MixedStyledText('modindex')
@@ -1935,7 +2540,7 @@
                 SingleStyledText('')
           StaticGroupedFlowables()
                > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
-            Paragraph('search')   C:44 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <paragraph>
+            Paragraph('search')   C:54 (\Users\Yahya\Desktop\AmazonEcho\docs\source\index.rst)   <paragraph>
                  > (0,0,0,0,5) list item paragraph [Sphinx] > default
                    (0,0,0,0,2) body [Sphinx] > default
                 MixedStyledText('search')
@@ -1944,15 +2549,15 @@
                       SingleStyledText('search')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('		15')
+    Footer('		17')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('		15')
-          MixedStyledText('		15')
+        MixedStyledText('		17')
+          MixedStyledText('		17')
             Tab('	')
             Tab('	')
-            Field('15')
-              SingleStyledText('15')
----------------------------------- page 17 ----------------------------------
+            Field('17')
+              SingleStyledText('17')
+---------------------------------- page 19 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
@@ -1972,88 +2577,103 @@
              > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
                (0,0,0,0,1) body [Sphinx] > default
             SingleStyledText('a')
-        IndexEntry('answer_service, 3')
+        IndexEntry('answer_service, 5')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('answer_service, 3')
-              MixedStyledText('answer_service, 3')
+            MixedStyledText('answer_service, 5')
+              MixedStyledText('answer_service, 5')
                 SingleStyledText('answer_service', style='domain')
-                     > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
-                SingleStyledText(', ')
-                Reference('3')
-                     > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                  SingleStyledText('3')
-        IndexLabel('d')
-             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('d')
-        IndexEntry('database_entry, 5')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('database_entry, 5')
-              MixedStyledText('database_entry, 5')
-                SingleStyledText('database_entry', style='domain')
                      > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
                 SingleStyledText(', ')
                 Reference('5')
                      > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                   SingleStyledText('5')
-        IndexEntry('database_retriv, 7')
+        IndexLabel('d')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('d')
+        IndexEntry('database_entry, 7')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('database_retriv, 7')
-              MixedStyledText('database_retriv, 7')
-                SingleStyledText('database_retriv', style='domain')
+            MixedStyledText('database_entry, 7')
+              MixedStyledText('database_entry, 7')
+                SingleStyledText('database_entry', style='domain')
                      > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
                 SingleStyledText(', ')
                 Reference('7')
                      > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                   SingleStyledText('7')
-        IndexLabel('l')
-             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('l')
-        IndexEntry('listening_service, 9')
+        IndexEntry('database_retriv, 9')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('listening_service, 9')
-              MixedStyledText('listening_service, 9')
-                SingleStyledText('listening_service', style='domain')
+            MixedStyledText('database_retriv, 9')
+              MixedStyledText('database_retriv, 9')
+                SingleStyledText('database_retriv', style='domain')
                      > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
                 SingleStyledText(', ')
                 Reference('9')
                      > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                   SingleStyledText('9')
-        IndexLabel('m')
+        IndexLabel('l')
              > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
                (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('m')
-        IndexEntry('main, 13')
+            SingleStyledText('l')
+        IndexEntry('listening_service, 11')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('main, 13')
-              MixedStyledText('main, 13')
-                SingleStyledText('main', style='domain')
-                     > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
-                SingleStyledText(', ')
-                Reference('13')
-                     > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                  SingleStyledText('13')
-        IndexLabel('p')
-             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('p')
-        IndexEntry('play_service, 11')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('play_service, 11')
-              MixedStyledText('play_service, 11')
-                SingleStyledText('play_service', style='domain')
+            MixedStyledText('listening_service, 11')
+              MixedStyledText('listening_service, 11')
+                SingleStyledText('listening_service', style='domain')
                      > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
                 SingleStyledText(', ')
                 Reference('11')
                      > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                   SingleStyledText('11')
+        IndexLabel('m')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('m')
+        IndexEntry('main, 15')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('main, 15')
+              MixedStyledText('main, 15')
+                SingleStyledText('main', style='domain')
+                     > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
+                SingleStyledText(', ')
+                Reference('15')
+                     > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                  SingleStyledText('15')
+        IndexLabel('p')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('p')
+        IndexEntry('play_service, 13')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('play_service, 13')
+              MixedStyledText('play_service, 13')
+                SingleStyledText('play_service', style='domain')
+                     > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
+                SingleStyledText(', ')
+                Reference('13')
+                     > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                  SingleStyledText('13')
+        IndexLabel('s')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('s')
+        IndexEntry('speech_to_txt, 3')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('speech_to_txt, 3')
+              MixedStyledText('speech_to_txt, 3')
+                SingleStyledText('speech_to_txt', style='domain')
+                     > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
+                SingleStyledText(', ')
+                Reference('3')
+                     > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                  SingleStyledText('3')
         IndexLabel('t')
              > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
                (0,0,0,0,1) body [Sphinx] > default
@@ -2071,15 +2691,15 @@
                   SingleStyledText('1')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('		17')
+    Footer('		19')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('		17')
-          MixedStyledText('		17')
+        MixedStyledText('		19')
+          MixedStyledText('		19')
             Tab('	')
             Tab('	')
-            Field('17')
-              SingleStyledText('17')
----------------------------------- page 18 ----------------------------------
+            Field('19')
+              SingleStyledText('19')
+---------------------------------- page 20 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
@@ -2099,17 +2719,17 @@
               SingleStyledText('Release 0.1.0')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('18		Python Module Index')
+    Footer('20		Python Module Index')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('18		Python Module Index')
-          MixedStyledText('18		Python Module Index')
-            Field('18')
-              SingleStyledText('18')
+        MixedStyledText('20		Python Module Index')
+          MixedStyledText('20		Python Module Index')
+            Field('20')
+              SingleStyledText('20')
             Tab('	')
             Tab('	')
             Field('Python Module Index')
               SingleStyledText('Python Module Index')
----------------------------------- page 19 ----------------------------------
+---------------------------------- page 21 ----------------------------------
 #### FootnoteContainer('footnotes')
   StaticGroupedFlowables()
 #### DownExpandingContainer('floats')
@@ -2137,76 +2757,14 @@
             MixedStyledText('answer_mode() (in module answer_...')
               MixedStyledText('answer_mode() (in module answer_...')
                 SingleStyledText('answer_mode() (in module answer_...')
-                MixedStyledText('5')
-                  Reference('5')
+                MixedStyledText('7')
+                  Reference('7')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('5')
+                    SingleStyledText('7')
         IndexEntry('answer_service')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
             SingleStyledText('answer_service')
-        IndexEntry('module, 3')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('module, 3')
-              MixedStyledText('module, 3')
-                SingleStyledText('module, ')
-                MixedStyledText('3')
-                  Reference('3')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('3')
-        IndexLabel('C')
-             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('C')
-        IndexEntry('controller() (in module main), 1...')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('controller() (in module main), 1...')
-              MixedStyledText('controller() (in module main), 1...')
-                SingleStyledText('controller() (in module main), ')
-                MixedStyledText('15')
-                  Reference('15')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('15')
-        IndexEntry('convert_into_binary() (in module...')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('convert_into_binary() (in module...')
-              MixedStyledText('convert_into_binary() (in module...')
-                SingleStyledText('convert_into_binary() (in module...')
-                MixedStyledText('7')
-                  Reference('7')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('7')
-        IndexEntry('create_db_table() (in module dat...')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('create_db_table() (in module dat...')
-              MixedStyledText('create_db_table() (in module dat...')
-                SingleStyledText('create_db_table() (in module dat...')
-                MixedStyledText('7')
-                  Reference('7')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('7')
-        IndexEntry('create_thread() (in module main)...')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('create_thread() (in module main)...')
-              MixedStyledText('create_thread() (in module main)...')
-                SingleStyledText('create_thread() (in module main)...')
-                MixedStyledText('15')
-                  Reference('15')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('15')
-        IndexLabel('D')
-             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('D')
-        IndexEntry('database_entry')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('database_entry')
         IndexEntry('module, 5')
              > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
                (0,0,0,0,1) body [Sphinx] > default
@@ -2217,10 +2775,58 @@
                   Reference('5')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                     SingleStyledText('5')
-        IndexEntry('database_retriv')
+        IndexLabel('C')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('C')
+        IndexEntry('controller() (in module main), 1...')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('database_retriv')
+            MixedStyledText('controller() (in module main), 1...')
+              MixedStyledText('controller() (in module main), 1...')
+                SingleStyledText('controller() (in module main), ')
+                MixedStyledText('17')
+                  Reference('17')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('17')
+        IndexEntry('convert_into_binary() (in module...')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('convert_into_binary() (in module...')
+              MixedStyledText('convert_into_binary() (in module...')
+                SingleStyledText('convert_into_binary() (in module...')
+                MixedStyledText('9')
+                  Reference('9')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('9')
+        IndexEntry('create_db_table() (in module dat...')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('create_db_table() (in module dat...')
+              MixedStyledText('create_db_table() (in module dat...')
+                SingleStyledText('create_db_table() (in module dat...')
+                MixedStyledText('9')
+                  Reference('9')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('9')
+        IndexEntry('create_thread() (in module main)...')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('create_thread() (in module main)...')
+              MixedStyledText('create_thread() (in module main)...')
+                SingleStyledText('create_thread() (in module main)...')
+                MixedStyledText('17')
+                  Reference('17')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('17')
+        IndexLabel('D')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('D')
+        IndexEntry('database_entry')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('database_entry')
         IndexEntry('module, 7')
              > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
                (0,0,0,0,1) body [Sphinx] > default
@@ -2231,28 +2837,10 @@
                   Reference('7')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                     SingleStyledText('7')
-        IndexLabel('I')
-             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('I')
-        IndexEntry('insert_file() (in module databas...')
+        IndexEntry('database_retriv')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('insert_file() (in module databas...')
-              MixedStyledText('insert_file() (in module databas...')
-                SingleStyledText('insert_file() (in module databas...')
-                MixedStyledText('7')
-                  Reference('7')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('7')
-        IndexLabel('L')
-             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('L')
-        IndexEntry('listening_service')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('listening_service')
+            SingleStyledText('database_retriv')
         IndexEntry('module, 9')
              > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
                (0,0,0,0,1) body [Sphinx] > default
@@ -2263,121 +2851,28 @@
                   Reference('9')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                     SingleStyledText('9')
-        IndexLabel('M')
+        IndexLabel('I')
              > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
                (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('M')
-        IndexEntry('main')
+            SingleStyledText('I')
+        IndexEntry('insert_file() (in module databas...')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('main')
-        IndexEntry('module, 13')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('module, 13')
-              MixedStyledText('module, 13')
-                SingleStyledText('module, ')
-                MixedStyledText('13')
-                  Reference('13')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('13')
-        IndexEntry('module')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('module')
-        IndexEntry('answer_service, 3')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('answer_service, 3')
-              MixedStyledText('answer_service, 3')
-                SingleStyledText('answer_service, ')
-                MixedStyledText('3')
-                  Reference('3')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('3')
-        IndexEntry('database_entry, 5')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('database_entry, 5')
-              MixedStyledText('database_entry, 5')
-                SingleStyledText('database_entry, ')
-                MixedStyledText('5')
-                  Reference('5')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('5')
-        IndexEntry('database_retriv, 7')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('database_retriv, 7')
-              MixedStyledText('database_retriv, 7')
-                SingleStyledText('database_retriv, ')
-                MixedStyledText('7')
-                  Reference('7')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('7')
-        IndexEntry('listening_service, 9')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('listening_service, 9')
-              MixedStyledText('listening_service, 9')
-                SingleStyledText('listening_service, ')
+            MixedStyledText('insert_file() (in module databas...')
+              MixedStyledText('insert_file() (in module databas...')
+                SingleStyledText('insert_file() (in module databas...')
                 MixedStyledText('9')
                   Reference('9')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                     SingleStyledText('9')
-        IndexEntry('main, 13')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('main, 13')
-              MixedStyledText('main, 13')
-                SingleStyledText('main, ')
-                MixedStyledText('13')
-                  Reference('13')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('13')
-        IndexEntry('play_service, 11')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('play_service, 11')
-              MixedStyledText('play_service, 11')
-                SingleStyledText('play_service, ')
-                MixedStyledText('11')
-                  Reference('11')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('11')
-        IndexEntry('txt_to_speech, 1')
-             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
-               (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('txt_to_speech, 1')
-              MixedStyledText('txt_to_speech, 1')
-                SingleStyledText('txt_to_speech, ')
-                MixedStyledText('1')
-                  Reference('1')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('1')
-        IndexLabel('P')
+        IndexLabel('L')
              > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
                (0,0,0,0,1) body [Sphinx] > default
-            SingleStyledText('P')
-        IndexEntry('play() (in module play_service),...')
+            SingleStyledText('L')
+        IndexEntry('listening_service')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('play() (in module play_service),...')
-              MixedStyledText('play() (in module play_service),...')
-                SingleStyledText('play() (in module play_service),...')
-                MixedStyledText('13')
-                  Reference('13')
-                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('13')
-#### ChainedContainer('column2')
-  (continued) StaticGroupedFlowables()
-    (continued) IndexSection()
-         > (0,0,0,1,1) chapter [Sphinx] > DEFAULT
-      (continued) Index()   index
-           > (0,0,0,0,2) index [Sphinx] > DEFAULT
-        IndexEntry('play_service')
-             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
-               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('listening_service')
         IndexEntry('module, 11')
              > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
                (0,0,0,0,1) body [Sphinx] > default
@@ -2388,6 +2883,142 @@
                   Reference('11')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
                     SingleStyledText('11')
+        IndexLabel('M')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('M')
+        IndexEntry('main')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('main')
+        IndexEntry('module, 15')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('module, 15')
+              MixedStyledText('module, 15')
+                SingleStyledText('module, ')
+                MixedStyledText('15')
+                  Reference('15')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('15')
+        IndexEntry('module')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('module')
+        IndexEntry('answer_service, 5')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('answer_service, 5')
+              MixedStyledText('answer_service, 5')
+                SingleStyledText('answer_service, ')
+                MixedStyledText('5')
+                  Reference('5')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('5')
+        IndexEntry('database_entry, 7')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('database_entry, 7')
+              MixedStyledText('database_entry, 7')
+                SingleStyledText('database_entry, ')
+                MixedStyledText('7')
+                  Reference('7')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('7')
+        IndexEntry('database_retriv, 9')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('database_retriv, 9')
+              MixedStyledText('database_retriv, 9')
+                SingleStyledText('database_retriv, ')
+                MixedStyledText('9')
+                  Reference('9')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('9')
+        IndexEntry('listening_service, 11')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('listening_service, 11')
+              MixedStyledText('listening_service, 11')
+                SingleStyledText('listening_service, ')
+                MixedStyledText('11')
+                  Reference('11')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('11')
+        IndexEntry('main, 15')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('main, 15')
+              MixedStyledText('main, 15')
+                SingleStyledText('main, ')
+                MixedStyledText('15')
+                  Reference('15')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('15')
+        IndexEntry('play_service, 13')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('play_service, 13')
+              MixedStyledText('play_service, 13')
+                SingleStyledText('play_service, ')
+                MixedStyledText('13')
+                  Reference('13')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('13')
+        IndexEntry('speech_to_txt, 3')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('speech_to_txt, 3')
+              MixedStyledText('speech_to_txt, 3')
+                SingleStyledText('speech_to_txt, ')
+                MixedStyledText('3')
+                  Reference('3')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('3')
+        IndexEntry('txt_to_speech, 1')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('txt_to_speech, 1')
+              MixedStyledText('txt_to_speech, 1')
+                SingleStyledText('txt_to_speech, ')
+                MixedStyledText('1')
+                  Reference('1')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('1')
+#### ChainedContainer('column2')
+  (continued) StaticGroupedFlowables()
+    (continued) IndexSection()
+         > (0,0,0,1,1) chapter [Sphinx] > DEFAULT
+      (continued) Index()   index
+           > (0,0,0,0,2) index [Sphinx] > DEFAULT
+        IndexLabel('P')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('P')
+        IndexEntry('play() (in module play_service),...')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('play() (in module play_service),...')
+              MixedStyledText('play() (in module play_service),...')
+                SingleStyledText('play() (in module play_service),...')
+                MixedStyledText('15')
+                  Reference('15')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('15')
+        IndexEntry('play_service')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('play_service')
+        IndexEntry('module, 13')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('module, 13')
+              MixedStyledText('module, 13')
+                SingleStyledText('module, ')
+                MixedStyledText('13')
+                  Reference('13')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('13')
         IndexLabel('R')
              > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
                (0,0,0,0,1) body [Sphinx] > default
@@ -2398,20 +3029,20 @@
             MixedStyledText('record() (in module listening_se...')
               MixedStyledText('record() (in module listening_se...')
                 SingleStyledText('record() (in module listening_se...')
-                MixedStyledText('11')
-                  Reference('11')
+                MixedStyledText('13')
+                  Reference('13')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('11')
+                    SingleStyledText('13')
         IndexEntry('retrieve_file() (in module datab...')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
             MixedStyledText('retrieve_file() (in module datab...')
               MixedStyledText('retrieve_file() (in module datab...')
                 SingleStyledText('retrieve_file() (in module datab...')
-                MixedStyledText('9')
-                  Reference('9')
+                MixedStyledText('11')
+                  Reference('11')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('9')
+                    SingleStyledText('11')
         IndexLabel('S')
              > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
                (0,0,0,0,1) body [Sphinx] > default
@@ -2422,30 +3053,44 @@
             MixedStyledText('Simpletoggle() (in module main),...')
               MixedStyledText('Simpletoggle() (in module main),...')
                 SingleStyledText('Simpletoggle() (in module main),...')
-                MixedStyledText('15')
-                  Reference('15')
+                MixedStyledText('17')
+                  Reference('17')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('15')
-        IndexEntry('speech_to_text() (in module list...')
+                    SingleStyledText('17')
+        IndexEntry('speech_to_text() (in module spee...')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
-            MixedStyledText('speech_to_text() (in module list...')
-              MixedStyledText('speech_to_text() (in module list...')
-                SingleStyledText('speech_to_text() (in module list...')
-                MixedStyledText('11')
-                  Reference('11')
+            MixedStyledText('speech_to_text() (in module spee...')
+              MixedStyledText('speech_to_text() (in module spee...')
+                SingleStyledText('speech_to_text() (in module spee...')
+                MixedStyledText('5')
+                  Reference('5')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('11')
+                    SingleStyledText('5')
+        IndexEntry('speech_to_txt')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('speech_to_txt')
+        IndexEntry('module, 3')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('module, 3')
+              MixedStyledText('module, 3')
+                SingleStyledText('module, ')
+                MixedStyledText('3')
+                  Reference('3')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('3')
         IndexEntry('sqlite_connect() (in module data...')
              > (0,0,0,1,2) level 1 index entry [Sphinx] > default
                (0,0,0,0,1) body [Sphinx] > default
             MixedStyledText('sqlite_connect() (in module data...')
               MixedStyledText('sqlite_connect() (in module data...')
                 SingleStyledText('sqlite_connect() (in module data...')
-                MixedStyledText('7')
-                  Reference('7')
+                MixedStyledText('9')
+                  Reference('9')
                        > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
-                    SingleStyledText('7')
+                    SingleStyledText('9')
         IndexLabel('T')
              > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
                (0,0,0,0,1) body [Sphinx] > default
@@ -2476,11 +3121,11 @@
                     SingleStyledText('1')
 #### DownExpandingContainer('footer')
   StaticGroupedFlowables()
-    Footer('		19')
+    Footer('		21')
          > (0,0,0,0,2) footer [Sphinx] > header_footer
-        MixedStyledText('		19')
-          MixedStyledText('		19')
+        MixedStyledText('		21')
+          MixedStyledText('		21')
             Tab('	')
             Tab('	')
-            Field('19')
-              SingleStyledText('19')
+            Field('21')
+              SingleStyledText('21')
